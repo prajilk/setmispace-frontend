@@ -19,21 +19,21 @@ export default class ListingLocationContacts extends React.Component {
                     </div>}
 
                     <ul className="sidebar__location-contacts-list">
-                        <li><p><i className="icon-pin"></i><span>Address:</span> {this.props.business?.address}</p></li>
+                        <li><p className='flex items-center gap-1'><i className="icon-pin pt-1"></i><span>Address:</span> {this.props.business?.address}</p></li>
 
                         {this.props.business?.phone && (
                             <li>
-                                <p><i className="icon-phone-call"></i> <span> Phone :</span> <a href={`tel:${this.props.business?.phone}`}>{this.props.business?.phone}</a></p>
+                                <p className='flex items-center gap-1'><i className="icon-phone-call pt-1"></i> <span> Phone :</span> <a href={`tel:${this.props.business?.phone}`}>{this.props.business?.phone}</a></p>
                             </li>
                         )}
                         {this.props.business?.mail && (
                             <li>
-                                <p><i className="icon-email"></i> <span> Mail :</span> <a href={`mailto:${this.props.business?.mail}`}>{this.props.business?.mail}</a></p>
+                                <p className='flex items-center gap-1'><i className="icon-email pt-1"></i> <span> Mail :</span> <a href={`mailto:${this.props.business?.mail}`}>{this.props.business?.mail}</a></p>
                             </li>
                         )}
                         {this.props.business?.website && (
                             <li>
-                                <p><i className="icon-email"></i> <span> Website :</span> <a href={this.props.business?.website}>{this.props.business?.business}</a></p>
+                                <p className='flex items-center gap-1'><i className="icon-email pt-1"></i> <span> Website:</span> <a href={this.props.business?.website}>{this.props.business?.business}</a></p>
                             </li>
                         )}
                     </ul>
