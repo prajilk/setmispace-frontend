@@ -1808,7 +1808,8 @@ link
 .banner-one__tab-content-item .comment-form__btn {
     position: relative;
     outline: none;
-    padding: 15px 40px 18px;
+    width: fit-content;
+    padding: 15px 15px 18px;
     margin-top: 4px;
     line-height: 15px;
     border-radius: 6px;

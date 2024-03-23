@@ -50,7 +50,7 @@ export default class Hero extends React.Component {
                             background: `url(${process.env.PUBLIC_URL}/assets/images/backgrounds/banner-v1-bg1.jpg)`
                         }}></div>
                         <div className="slider-bg-slide-overly"></div>
-                        <div className="container">
+                        <div style={{ maxWidth: "56rem", margin: "0 auto" }} className='container'>
                             <div className="banner-one__content text-center">
                                 <div className="title">
                                     <h2>Get Connected to KANNUR'S BUSINESS NETWORK</h2>

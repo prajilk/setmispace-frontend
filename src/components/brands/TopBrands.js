@@ -6,7 +6,7 @@ export default class TopBrands extends React.Component {
             <>
                 {/* Start Features One */}
                 <section className="features-one">
-                    <div className="container">
+                    <div style={{ maxWidth: "64rem", margin: "0 auto" }} className='container'>
                         <div className="sec-title text-center">
                             <h2 className="sec-title__title">Top Brands in City</h2>
                         </div>

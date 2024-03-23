@@ -26,8 +26,8 @@ function HotSelling() {
     return (
         <>
             {/* Start Categories One */}
-            <section className="categories-one">
-                <div className="container">
+            <section className="categories-one max-w-5xl">
+                <div style={{ maxWidth: "64rem", margin: "0 auto" }} className='container'>
                     <div className="sec-title text-center">
                         <h2 className="sec-title__title">Hot Selling Business in Kannur</h2>
                         <p className="sec-title__text">Most popular business in Kannur</p>

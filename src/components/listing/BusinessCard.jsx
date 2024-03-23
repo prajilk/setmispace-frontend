@@ -3,8 +3,18 @@ import { Link } from "react-router-dom";
 
 const BusinessCard = ({ business }) => {
     return (
-        <div className="col-xl-6 col-lg-6 col-md-6 listings-card">
-            <div className="place-one__single">
+        <div
+            className="col-xl-6 col-lg-6 col-md-6 listings-card"
+            // style={{ flex: "1" }}
+        >
+            <div
+                className="place-one__single"
+                style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                }}
+            >
                 <div className="place-one__single-img">
                     <div className="place-one__single-img-inner">
                         <img src={business.thumbnail} alt="" />
@@ -16,7 +26,10 @@ const BusinessCard = ({ business }) => {
                     </div>
                 </div>
 
-                <div className="place-one__single-content">
+                <div
+                    className="place-one__single-content"
+                    style={{ flex: "1" }}
+                >
                     <div className="top-content">
                         <h2>
                             <Link to={`/listings/${business._id}`}>

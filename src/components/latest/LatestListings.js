@@ -12,7 +12,8 @@ const LatestListings = () => {
         <>
             {/* Start Place One */}
             <section className="place-one">
-                <div className="container">
+                <div style={{ maxWidth: "64rem", margin: "0 auto" }} className='container'>
+                    {/* <div className='container'> */}
                     <div className="sec-title text-center">
                         <h2 className="sec-title__title">What is new in Kannur?</h2>
                         <p className="sec-title__text">Latest business and much more...</p>

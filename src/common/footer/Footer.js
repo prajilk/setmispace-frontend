@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
                 {/* Start Footer One */}
                 <footer className="footer-one">
                     <div className="footer-one__top">
-                        <div className="container">
+                        <div style={{ maxWidth: "64rem", margin: "0 auto", overflow: 'hidden', padding: "0 20px" }}>
                             <div className="row">
                                 <div className="col-xl-12">
                                     <div className="footer-one__top-inner">
